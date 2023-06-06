@@ -1,0 +1,16 @@
+{
+  "name": "backend-models",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.9.2",
+    "mongoose": "^7.2.2",
+    "tslib": "^2.5.3"
+  }
+}
