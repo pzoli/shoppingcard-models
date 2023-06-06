@@ -1,4 +1,4 @@
-# ShoppingCard API
+# ShoppingCard Models
 
 Shared library for ShoppingCard API
 
