@@ -22,8 +22,6 @@ const itemSchema = new Schema({
     },
 });
 
-const Item = model("item", itemSchema);
-
 const validate = (item: object): Joi.ValidationResult => {
     const schema = Joi.object().keys({
         name: Joi.string().required(),
@@ -34,4 +32,4 @@ const validate = (item: object): Joi.ValidationResult => {
     return schema.validate(item);
 }
 
-export default { Item, validate };
+export default { itemSchema, validate };
